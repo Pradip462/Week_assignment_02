@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="./E-book-logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Book</title>
+    <link rel="stylesheet" href="./media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <div class="heading1">
+                <a href="./index.html"><img src="./E-book-logo.png" style="width: 80px;height: 80px;" class="e-book-logo"></a>
+                <h1 id="e-book-heading">E-Book</h1>
+            </div>
+            <div class="search-container">
+                <form action="/search_page.php">
+                  <input type="text" placeholder="Search in home" name="search" id="input">
+                  <button type="submit" id="search-button"><i class="fas fa-search"></i></button>
+                </form>
+              </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="side-bar">
+                <div class="side-bar1">
+                    <div class="hm"><a href="./index.html" class="home" ><img src="./home.png" style="width: 70px; height: 70px;">Home</a><br></div>
+                    <div class="cust"><a href="./customer.html" class="customer" ><img src="./customr-logo.png" style="width: 70px; height: 70px;">Customer</a><br></div>
+                    <div class="dept"><a href="./department.html" class="department"><img src="./department.png" style="width: 70px; height: 70px;">Departments</a><br></div>
+                    <div class="med"><a href="./media.html" class="media"><img src="./mediapng.png" style="width: 70px; height: 70px;">Media</a></div>
+                </div>   
+                <div class="my-account">
+                    <div class="acct"><a href="./account.html" class="account"><img src="./myaccount.png" style="width: 70px; height: 70px;">My Account</a></div>
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="img-table">
+                    <h2 class="image-letter">Images</h2>
+                    <div class="first">
+                        <div id="one"><img style="height: 200px;width: 170px;margin-left: 15px;" src="./horro_book.jpg"></div>
+                        <div id="two"><img style="height: 200px;width: 170px;margin-left: 15px;" src="./thriller.jpeg"></div>
+                        <div id="three"><img style="height: 200px;width: 170px;margin-left: 15px;" src="./mystery.jpeg"></div>
+                    </div>
+                    <div class="second">
+                        <div id="four"><img style="height: 200px;width: 150px;margin-left: 15px;" src="./romantic.jpeg"></div>
+                        <div id="five"><img style="height: 200px;width: 170px;margin-left: 15px;" src="./science.jpeg"></div>
+                        <div id="six"><img style="height: 200px;width: 170px;margin-left: 15px;" src="./biography.jpeg"></div>
+                    </div>
+                </div>
+                <h2 class="video-letter">Video</h2>
+                <div class="vid-div">
+                    <div class="one-v"><video width="199px" height="180" style="margin-bottom: 50px;"  controls>
+                        <source src="./horror-video.mp4"  type="video/mp4">
+                    </video></div>
+                    <div class="two-v"><video width="199px" height="180" style="margin-bottom: 50px;"  controls>
+                        <source src="./mystery-video.mp4"  type="video/mp4"></div>
+                    <div class="three-v"><video width="199px" height="180" style="margin-bottom: 50px;"  controls>
+                        <source src="./biography-video.mp4"  type="video/mp4"></div>
+                </div>
+                <h2 class="audio-letter">Audios</h2>
+                <div class="aud-div">
+                    <div class="one-a">
+                        <audio style="height: 50px;width: 250px;" controls>
+                            <source src="./horror-hit-logo-142395.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                    <div class="two-a">
+                        <audio style="height: 50px;width: 250px;" controls>
+                            <source src="./cartoon-sci-fi-mystery-132275.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                    <div class="three-a">
+                        <audio style="height: 50px;width: 250px;" controls>
+                            <source src="./thriller-score-horror-scene-6730.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main></main>
+    <footer></footer>      
+</body>
+</html>
