@@ -1,0 +1,261 @@
+.heading {
+    display: flex;
+    /* align-items: baseline; */
+    background-color: #BFF6C3;
+    /* position: fixed; */
+    justify-content: space-between;
+}
+
+.heading1 {
+    display: flex;
+}
+
+#e-book-heading {
+    font-family: serif;
+    font-size: 70px;
+    margin: 0px;
+}
+
+/* .search-container {
+    width: 1000px;
+} */
+.search-container {
+    padding-top: 24.95px;
+    padding-right: 30px;
+}
+
+#input {
+    width: 300px; 
+    height: 25px;
+    border-radius: 10px ;
+}
+
+#input:hover {
+    background-color: rgb(232, 229, 229);
+}
+
+#search-button { 
+    width: auto;
+    height: 30px;
+    border-radius: 10px ;
+}
+
+#search-button:hover {
+    background-color: rgb(206, 193, 193);
+}
+
+/* .e-book-logo:hover {
+
+} */
+
+/* .side-bar1 ,.my-account{
+    text-align: center;
+    width: 25%;
+    background-color: #BFF6C3;
+
+} */
+
+.customer , .department ,.media ,.account ,.home{
+    font-size: 40px;
+    /* text-align: center; */
+    color: black;
+    text-decoration: none;
+}
+
+.hm {
+    background-color: #6ed673;
+    border-radius: 10px;
+}
+.cust:hover {
+    background-color: #ACE1AF;
+    border-radius: 10px;
+}
+.dept:hover {
+    background-color: #ACE1AF;
+    border-radius: 10px;
+}
+.med:hover {
+    background-color: #ACE1AF;
+    border-radius: 10px;
+}
+
+.heading:hover {
+    background-color: #ACE1AF;
+    border-radius: 10px;
+}
+
+.acct:hover {
+    background-color: #ACE1AF;
+    border-radius: 10px;
+}
+
+.side-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 1150px;
+    background-color: #BFF6C3;
+    width: 25%;
+}
+
+.content {
+    display: flex;
+    /* background-color: #04114f; */
+}
+
+#new-cust {
+    background-color: #ffafcc;
+    height: 150px;
+    width: 250px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#dept-activity {
+    background-color: #cdb4db;
+    height: 150px;
+    width: 250px;
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+#tottal-media-size {
+    background-color: #a2d2ff;
+    height: 150px;
+    width: 250px;
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+.overview {
+    display: flex;
+    margin: 35px;
+}
+
+#tottal-media-size:hover {
+    background-color: #75bbfc;
+}
+
+#dept-activity:hover {
+    background-color: #b680d5;
+}
+
+#new-cust:hover {
+    background-color: #f482ac;
+}
+
+#right-side {
+    width: 75%;   
+}
+
+.c-table {
+    background-color: #ffafcc;
+    /* width: 75%; */
+    /* width: 800px; */
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+.c-table:hover {
+    background-color: #f482ac;
+}
+
+.d-table:hover {
+    background-color: #b680d5;
+}
+
+.d-table{
+    background-color: #cdb4db;
+    /* width: 75%; */
+    /* width: 800px; */
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    height: 250px;
+    width: 850px;
+}
+
+td,th {
+    text-align: center;
+}
+
+.md {
+    display: flex;
+    margin-left: 25px;
+}
+
+.audio {
+    font-size: 30px;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    background-color: #62b6cb;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.video {
+    font-size: 30px;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    background-color: #1b4965;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.image {
+    font-size: 30px;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    background-color: #cae9ff;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.files {
+    font-size: 30px;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    background-color: #5fa8d3;
+    border-radius: 20px;
+}
+
+.media-letter {
+    font-size: 30px;
+    margin-left: 25px;
+    background-color: #b3f9f9;
+    border-radius: 10px;
+    margin-right: 35px;
+}
+
+.media-letter:hover {
+    background-color: #01ffff;
+    
+}
+
+.audio:hover {
+    background-color: #2ea8c7;
+}
+
+.video:hover {
+    background-color: #8ec5ed;
+}
+
+.image:hover {
+    background-color: #8dccf8;
+}
+
+.files:hover {
+    background-color: #1797e2;
+}
