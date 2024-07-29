@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="./E-book-logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Book</title>
+    <link rel="stylesheet" href="./account.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <div class="heading1">
+                <a href="./index.html"><img src="./E-book-logo.png" style="width: 80px;height: 80px;" class="e-book-logo"></a>
+                <h1 id="e-book-heading">E-Book</h1>
+            </div>
+            <div class="search-container">
+                <form action="/search_page.php">
+                  <input type="text" placeholder="Search in home" name="search" id="input">
+                  <button type="submit" id="search-button"><i class="fas fa-search"></i></button>
+                </form>
+              </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="side-bar">
+                <div class="side-bar1">
+                    <div class="hm"><a href="./index.html" class="home" ><img src="./home.png" style="width: 70px; height: 70px;">Home</a><br></div>
+                    <div class="cust"><a href="./customer.html" class="customer" ><img src="./customr-logo.png" style="width: 70px; height: 70px;">Customer</a><br></div>
+                    <div class="dept"><a href="./department.html" class="department"><img src="./department.png" style="width: 70px; height: 70px;">Departments</a><br></div>
+                    <div class="med"><a href="./media.html" class="media"><img src="./mediapng.png" style="width: 70px; height: 70px;">Media</a></div>
+                </div>   
+                <div class="my-account">
+                    <div class="acct"><a href="./account.html" class="account"><img src="./myaccount.png" style="width: 70px; height: 70px;">My Account</a></div>
+                </div>
+            </div>
+            <!-- <div class="right-side">
+                <div class="profile-pic">
+                    <form action="/action_page.php">
+                        <div class="profile"><img src="./myaccount.png"></div>
+                        <input type="file" id="myFile" name="filename">
+                      </form>
+                </div>
+            </div> -->
+            <div class="form-container">
+                <div class="profile-pic">
+                    <img src="./myaccount.png">
+                    <input type="file" id="myFile" name="filename">
+                    <!-- <button class="edit-button">✏️</button> -->
+                </div>
+                <form id="user-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" value="John Doe">
+                    <!-- <button class="edit-button">✏️</button> -->
+    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" value="example@gmail.com">
+                    <!-- <button class="edit-button">✏️</button> -->
+    
+                    <label for="phone">Phone Number</label>
+                    <input type="text" id="phone" value="9134873948">
+                    <!-- <button class="edit-button">✏️</button> -->
+    
+                    <label for="dob">Date Of Birth</label>
+                    <input type="text" id="dob" value="July 16, 1990">
+                    <!-- <button class="edit-button">✏️</button> -->
+    
+                    <div class="buttons">
+                        <button type="button" class="save-button">Save</button>
+                        <button type="reset" class="cancel-button" onclick="resetForm()">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+    <script>
+        function resetForm() {
+        const form = document.getElementById('user-form');
+        form.reset();
+        form.name.value = 'John Doe';
+        form.email.value = 'example@gmail.com';
+        form.phone.value = '9134873948';
+        form.dob.value = 'July 16, 1990';
+}
+
+    </script>      
+</body>
+</html>
